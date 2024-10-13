@@ -16,11 +16,11 @@ console.log();
   
 if(data){
   return (
-    <div className="w-full flex flex-col bg-[#FFF5F2] border-y-[1px] border-[#FE6437] h-[466px]">
+    <div className="w-full flex flex-col bg-[#FFF5F2] border-y-[1px] border-[#FE6437] min-h-[466px]">
       <h1 className="font-500 text-[24px] my-[2rem] text-center font-bold">
         پر بازدیدترین دسته‌ها
       </h1>
-      <div className="grid grid-cols-3 gap-y-[1.5rem] justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-[1.5rem] justify-items-center">
         {data.map((item)=>{
           return(
             <CategoryItem key={item.id}>

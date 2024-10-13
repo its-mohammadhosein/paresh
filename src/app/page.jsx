@@ -1,4 +1,5 @@
 import CategoryContainer from "@/components/basics/CategoryContianer";
+import SliderContainer from "@/components/basics/slider/sliderContainer";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         بلاگ پرش
       </div>
          <CategoryContainer/>
+         <SliderContainer/>
     </>
   );
 }

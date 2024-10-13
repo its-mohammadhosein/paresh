@@ -1,6 +1,6 @@
 export default function CategoryItem({children}) {
   return (
-    <div className="w-[364px] hover:border-b-[1px] cursor-pointer duration-200 transition-all border-[1px] rounded-[18px] h-[134px] flex items-center pr-[2rem] bg-white border-[#FF7A00] border-b-8 justify-end gap-4">
+    <div className="lg:w-[364px] w-[339px] h-[72px] hover:border-b-[1px] cursor-pointer duration-200 transition-all border-[1px] rounded-[18px] lg:h-[134px] flex items-center pr-[2rem] bg-white border-[#FF7A00] border-b-8 justify-end gap-4">
       <h1 className="text-[24px] font-bold  leading-[26px] text-[#272727]">
        {children}
       </h1>
