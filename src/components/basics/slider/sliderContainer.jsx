@@ -78,9 +78,10 @@ export default function SliderContainer({ children, prop }) {
                       </div>
                       <div className="">
                         {Array.from({ length: item.coments.stars }).map(
-                          (newitems) => {
+                          (newitems,i) => {
                             return (
                               <svg
+                              key={i}
                                 width="18"
                                 height={item.id==current?"17":"8"}
                                 viewBox="0 0 18 17"
