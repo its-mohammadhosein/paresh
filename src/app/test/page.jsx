@@ -1,9 +1,6 @@
-import CategoryContainer from "@/components/basics/CategoryContianer";
 import SliderContainer from "@/components/basics/slider/sliderContainer";
-import { CarouselItem } from "@/components/ui/carousel";
-import Image from "next/image";
 
-export default async function Home() {
+export default async function page() {
   const requestOptions = {
     method: "GET",
     redirect: "follow",
@@ -17,10 +14,6 @@ export default async function Home() {
     .catch((error) => console.error(error));
   return (
     <>
-      <div className="font-[600] text-[30px] w-full flex items-center justify-center ">
-        بلاگ پرش
-      </div>
-      <CategoryContainer />
       <SliderContainer prop={data}>{data}</SliderContainer>
     </>
   );
