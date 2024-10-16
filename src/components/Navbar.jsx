@@ -3,7 +3,7 @@ import SelfBtn from "./basics/SelfBtn";
 export default function Navbar() {
     return (
         <>
-            <div className="w-full h-[66px] flex justify-between items-center px-4">
+            <div className="w-full mb-4 border-b-amber-700 border-b h-[66px] flex justify-between items-center px-4">
                 <div className="hidden md:block">ورود</div>
                 <div className="flex md:justify-between justify-center w-full md:w-auto items-center gap-4">
                     <SelfBtn className="">

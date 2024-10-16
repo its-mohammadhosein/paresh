@@ -14,7 +14,7 @@ export default async function Home() {
     redirect: "follow",
   };
 
-  const data = await fetch("http://localhost:3000/api/Carousel", requestOptions)
+  const data = await fetch("http://localhost:3000/api/carousel", requestOptions)
     .then((response) => response.text())
     .then((result) => {
       return JSON.parse(result);
