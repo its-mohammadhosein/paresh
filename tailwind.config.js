@@ -8,6 +8,10 @@ module.exports = {
   ],
   theme: {
   	extend: {
+		fontFamily:{
+			vazir:['var(--font-vazir)'],
+			kahroba:['var(--font-kahroba)']
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
